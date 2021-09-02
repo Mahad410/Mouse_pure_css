@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #36474f;
+
+}
+
+.container{
+   padding:300px 0 0 0 ;
+    margin-bottom: 50px;
+}
+
+
+.mouse{
+    width: 220px;
+    height: 190px;
+    background-color: #2f3c44;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mouse_box{
+    width: 220px;
+    height: 190px;
+    background-color: #2f3c44;
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+.in_mouse{
+    background-color: #999999;
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.in_mouse_l{
+    background-color: #999999;
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 170px;
+}
+
+.in_mouse_box{
+    width: 205px;
+    height: 175px;
+    background-color: #999999;
+    position: absolute;
+    margin-top: 98px;
+
+}
+
+
+.mouse_top{
+    background-color: #cccccc;
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+.mouse_bottom{
+    background-color: #cccccc;
+    width: 195px;
+    height: 195px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 172px;
+    z-index: 1;
+}
+
+
+.mouse_b{
+    width: 195px;
+    height: 175px;
+    background-color: #cccccc;
+    position: absolute;
+    margin-top: 98px;
+    z-index: 1;
+}
+.t_part{
+width: 31px;
+height: 5px;
+background-color: #36474f;
+position: absolute;
+margin-left: 85px;
+z-index: 97;
+}
+
+.s_button{
+    width: 31px;
+    height: 30px;
+    background-color: #7b7b7b;
+    position: absolute;
+    
+    margin-top: 70px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    z-index: 1;
+}
+
+.scroll{
+    width: 31px;
+    height: 70px;
+    background-color: #7b7b7b;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 5px;
+    z-index: 98;
+}
+
+.s_wheel{
+    width: 25px;
+    height: 65px;
+    background-color: #4d4d4d;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 99;
+    margin-left: 3px;
+    margin-top: 15px;
+    padding-top: 5px;
+}
+
+.lines{
+    width: 23px;
+    height: 2px;
+    background-color: #424242;
+    margin-top: 5px;
+    margin-left: 1px;
+}
