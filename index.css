@@ -124,7 +124,7 @@ z-index: 97;
 
 .scroll{
     width: 31px;
-    height: 70px;
+    height: 75px;
     background-color: #7b7b7b;
     position: absolute;
     margin-left: 85px;
@@ -150,4 +150,17 @@ z-index: 97;
     background-color: #424242;
     margin-top: 5px;
     margin-left: 1px;
+}
+
+.logo{
+    background-image: url(logitech.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin-left: 80px;
+    margin-top: 90px;
+    z-index: 99;
+    filter: grayscale(100);
 }
